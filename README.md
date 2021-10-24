@@ -12,6 +12,8 @@
 source ./env.sh
 ```
 
+> 需要使用到 `riscv64-unknown-linux-gnu-gcc`来在本地交叉编译测试用例，然后再将编译好的可执行测试用例放到 SoC 所读取的 SD 卡上。
+
 克隆本项目，并进入项目目录：
 
 ```bash
